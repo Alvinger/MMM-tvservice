@@ -15,7 +15,8 @@ The module relies on external schedulers/scripts (e.g. MMM-ModuleScheduler) to d
 		module: "MMM-tvservice"
         }
 ```
-4. Add a schedule using MMM-ModuleScheduler to schedule On and Off times.
+
+Add a schedule using MMM-ModuleScheduler to schedule On and Off times.
 ```
 	{
 		module: "MMM-ModuleScheduler",
@@ -27,7 +28,8 @@ The module relies on external schedulers/scripts (e.g. MMM-ModuleScheduler) to d
 		}
         }
 ```
-5. An alternative way is for your own module to send a notification. The following notifications are recognized:
+
+An alternative way is for your own module to send a notification. The following notifications are recognized:
 	HDMI_ON, turn HDMI ON
 	HDMI_OFF, turn HDMI OFF
 	HDMI_STATUS, outputs status from tvservice into log
