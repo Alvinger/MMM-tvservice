@@ -13,7 +13,7 @@ The module relies on external schedulers/scripts (e.g. MMM-ModuleScheduler) to d
 ```
 	{
 		module: "MMM-tvservice"
-        }
+	}
 ```
 
 Add a schedule using MMM-ModuleScheduler to schedule On and Off times.
@@ -26,7 +26,7 @@ Add a schedule using MMM-ModuleScheduler to schedule On and Off times.
 				{notification: "HDMI_OFF", schedule: "0 23 * * *", payload: {type: "notification"}}
 			]
 		}
-        }
+	}
 ```
 
 An alternative way is for your own module to send a notification. The following notifications are recognized:
