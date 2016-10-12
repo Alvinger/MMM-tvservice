@@ -27,7 +27,7 @@ module.exports = NodeHelper.create({
 		case "HDMI_OFF":
 			self.sendCommand("OFF");
 			break;
-		default:
+		case "HDMI_STATUS":
 			self.sendCommand("STATUS");
 			break;
 		}
