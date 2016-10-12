@@ -30,7 +30,7 @@ Add a schedule using MMM-ModuleScheduler to schedule On and Off times.
 ```
 
 An alternative way is for your own module to send a notification. The following notifications are recognized:
-	HDMI_ON, turn HDMI ON
-	HDMI_OFF, turn HDMI OFF
-	HDMI_STATUS, outputs status from tvservice into log
+- HDMI_ON, turn HDMI ON
+- HDMI_OFF, turn HDMI OFF
+- HDMI_STATUS, outputs status from tvservice into log
 
