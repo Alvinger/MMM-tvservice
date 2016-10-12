@@ -72,6 +72,17 @@ module.exports = NodeHelper.create({
 			} else {
 				console.log("Executed command: " + cmd);
 				console.log(stdout);
+				switch (action) {
+				case "ON":
+					self.sendNotification("HDMI_IS_ON",stdout);
+					break;
+				case "OFF":
+					self.sendNotification("HDMI_IS_OFF",stdout);
+					break;
+				default:
+					self.sendNotification("HDMI_CURRENT_STATUS",stdout);
+					break;
+				}
 			}
 		})
 	}
