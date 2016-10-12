@@ -1,0 +1,26 @@
+{
+  "name": "MMM-tvservice",
+  "version": "1.0.0",
+  "description": "Turn HDMI On or Off with tvservice, module for MagicMirror",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvinger/MMM-tvservice"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "power management",
+    "utilities",
+    "module"
+  ],
+  "author": "Johan Alvinger",
+  "contributors": "https://github.com/Alvinger/MMM-tvservice/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alvinger/MMM-tvservice/issues"
+  },
+  "homepage": "https://github.com/Alvinger/MMM-tvservice#readme",
+  "dependencies": {
+	"child_process": "latest"
+  }
+}
